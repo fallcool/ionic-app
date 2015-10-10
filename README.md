@@ -8,6 +8,7 @@ Wallabag uses :
 
 - Ionic >=1.6.x (Installation possible with npm : ```npm install -g ionic ```). [View Installation Guide on Ionicframework.com](http://ionicframework.com/docs/guide/installation.html)
 - Bower
+- Cordova
 
 ##Installation / Testing
 
@@ -18,7 +19,7 @@ Wallabag uses :
 ```bower install```
 
 3. Configuration :
-Configuration can be done in ```appsetting.js``` file.
+Configuration can be done in the ```www/js/appsetting.js``` file.
 For now, username, password and salt must be filled. In the 1.0.0 version, an oauth login screen will prompt user credentials.
 ```
 AppSettings = {
